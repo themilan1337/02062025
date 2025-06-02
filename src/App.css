@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+.theme-toggle {
+  background: var(--color-card-bg);
+  border: none;
+  box-shadow: var(--color-shadow);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.4s, box-shadow 0.4s;
+  outline: none;
+}
+.theme-toggle:hover, .theme-toggle:focus {
+  background: var(--color-btn-bg-hover);
+  box-shadow: 0 6px 24px 0 rgba(100,108,255,0.12);
+}
