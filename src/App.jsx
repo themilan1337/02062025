@@ -180,7 +180,7 @@ function App() {
     <>
       <ThemeToggle />
       <div className="card">
-        <h1 style={{ marginBottom: '0.5em', fontWeight: 800, letterSpacing: '-1px' }}>Reactive Timer-Motivator</h1>
+        <h1 style={{ marginBottom: '0.5em', fontWeight: 800, letterSpacing: '-1px' }}>Sigma-Motivator</h1>
         <div style={{ marginBottom: '1.5rem', display: 'flex', flexDirection: 'column', gap: 8 }}>
           <label htmlFor="timer-select" style={{ marginRight: 8, fontWeight: 600, fontSize: '1.1em' }}>Timer:</label>
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', justifyContent: 'center' }}>
