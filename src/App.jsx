@@ -167,7 +167,7 @@ function App() {
     if (/^\d*$/.test(value)) {
       setCustomSeconds(value)
       if (value) {
-        const num = Math.max(1, Math.min(999, Number(value)))
+        const num = Math.max(1, Math.min(86400, Number(value)))
         setDuration(num)
         setTimer(num)
       }
@@ -199,7 +199,7 @@ function App() {
             <input
               type="number"
               min="1"
-              max="999"
+              max="86400"
               placeholder="Custom seconds"
               value={customSeconds}
               onChange={handleCustomSecondsChange}
